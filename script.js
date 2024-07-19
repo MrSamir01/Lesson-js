@@ -1,54 +1,62 @@
-// console.log("Hello world");
-// var message = "Hello";
-// var lg = "televizor";
-// let lg = "televisor";
-// lg = "кереги жок буюмдар";
-// console.log(lg);
+let index = 1;
 
-// const samsung = "televisor";
+if (index < 5) {
+  console.log("Hello");
+}
+//! while loop
 
-// samsung = "dividi";
+let i = 1;
 
-// console.log(samsung);
+while (i < 5) {
+  console.log("i" + i);
+  i = i + 1;
+}
 
-const number = 4;
-const numberDoc = document.getElementById("type");
+//! increment
 
-numberDoc.textContent;
-let text = "something text";
-//2)
-//3)
-//4)
-//5) Undefined
+let a = 0;
 
-console.log(number);
+console.log(a); //0
+a = a + 1; //1
 
-// var number = 5;
+console.log(a); //1
 
-//6) Symbol
+//! decrement
 
-let numbers = 1000000000;
-console.log(numbers);
+let b = 1;
+console.log(b); //1
+b = b - 1;
 
-// 8) Object
-// const person = {
-//     name: "Samir",
-//     age: "13",
-//     color:"red",
+console.log(b);
+
+// //! task 1
+
+// let index2 = 0;
+
+// while (index2 <= 100) {
+//   console.log(index2);
+//   index2++;
 // }
 
-let num1 = 7;
-let num2 = 3;
-let result = num1 - num2;
+//! task 2
+
+// let counter = 0;
+
+// while (counter <= 100) {
+//   if (counter % 2 === 0) {
+//     console.log(counter);
+//   }
+//   counter++;
+// }
+
+//! task 3
+
+let counter2 = 6;
+let result = 15;
+
+while (counter2 <= 10) {
+  result = result + counter2;
+  counter2 = counter2 + 1;
+}
 
 console.log(result);
-
-let message1 = "Hello";
-let message2 = "World";
-
-let combinedMessage = `${message1} ${message2}`;
-
-const results = confirm("сиз 18 ге чыкансызбы ? ");
-console.log(result);
-let userName = prompt("Как ваше имя ?");
-console.log(userName);
