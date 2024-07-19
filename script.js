@@ -6,4 +6,21 @@
 //? > < - меньше и больше
 //? ! - не равно
 
-console.log(10 !== 10);
+// console.log(10 !== 10);
+
+const a = 10;
+
+//! Условные операторы: если | иначеб если | еще
+//? if() если условие верно, выполняется код в {}
+//? else иначе, выполняется код в {}
+
+const password = prompt("enter your password");
+let passwordAdmin = "Admin123";
+
+if (password === passwordAdmin) {
+  console.log("Welcome, Admin!");
+} else {
+  console.log("Сиз туура эмес пароль жаздыныз!");
+}
+
+//! Лочические операторы: &&-(И)
