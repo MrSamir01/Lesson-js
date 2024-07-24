@@ -4,9 +4,9 @@
 //   console.log(result);
 // }
 
-// // function getNumber() {
-// //   for (let i = 0; i <10)
-// // }
+// function getNumber() {
+//   for (let i = 0; i <10)
+// }
 
 // addNumbers(5, 10);
 
