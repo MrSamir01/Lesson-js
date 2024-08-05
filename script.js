@@ -32,8 +32,8 @@
 // const firstName = "Aisuluu";
 // const lastName = "Bekeeva";
 
-const number = 90.5;
+// const number = 90.5;
 
-console.log(Math.ceil(number), "ceil");
-console.log(Math.floor(number), "floor");
-console.log(Math.round(number), "round");
+// console.log(Math.ceil(number), "ceil");
+// console.log(Math.floor(number), "floor");
+// console.log(Math.round(number), "round");
